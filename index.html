@@ -1,25 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Irys</title>
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/portifolio.css" />
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
@@ -29,27 +18,89 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
+     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+     <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/portifolio.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
   </head>
   <body>
-    <div class="about-section container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-section-content">
-            <h1 class="mb-4">Hi, I'm Irys Rodrigues</h1>
-            <h2 class="mb-4">Frontend Developer, based in Brazil.</h2>
-            <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html"> About</a>
+          </li>
+          <li>
+            <a href="/work.html"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+     <div class="hero">
+      <p>👋 Hello, I'm</p>
+      <h1>Irys Rodrigues</h1>
+      <h2 class="mb-5">Front-end developer based in Brazil</h2>
+      <div>
+        <a href="contact.html" class="btn btn-branding">Contact me</a>
+      </div>
+      </div>
+       <p class="text-center m-5">
+      Featured Project which my best projects be choice to show
+    </p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="images/acailovers.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Açaí Lovers</h2>
+            <p class="mb-5 text-muted">
+           Welcome to Açaí Lovers, your destination for the best açaí! Here you will find creamy and nutritious açaí, prepared with selected ingredients and irresistible combinations. Choose from several side dish options, assemble it your way and receive it in the comfort of your home. Experience the true taste of energy and refreshment!
             </p>
-            <a href="work.html" class="btn btn-branding">See my projects</a>
+            <a href="https://acai-lovers.vercel.app/" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/iryscrodrigues.jpg" alt="" class="img-fluid" />
-        </div>
       </div>
-    </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+          A weather forecast app provides real-time weather information and forecasts for the next few days. It displays data such as temperature, wind chill, humidity, wind speed and chance of rain. Additionally, it can include features such as interactive maps, extreme weather alerts, and customization for different cities. Ideal for those who want to plan better for their daily lives or trips, ensuring more safety and convenience.
+            </p>
+            <a href="https://weather-app-shecodes-2024.netlify.app/" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="images/weather.jpg" class="img-fluid" alt="" />
+        </div>
+        </div>
+        </div>
+          </div>
+        </div>
+    </div>   
   </body>
 </html>
